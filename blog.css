@@ -1,0 +1,22 @@
+.title{
+    color:darkolivegreen;
+    font-family: Cafe24Danjunghae;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.date{
+    border : solid 1px black;
+    width : 300px;
+    font-style: italic;
+    padding-left: 10px;
+}
+.text{
+    border : solid 1px black;
+    width : 550px;
+    padding: 10px;
+}
+.posts{
+    margin : 30px;
+    padding : 20px;
+}
+@font-face { font-family: 'Cafe24Danjunghae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff'); font-weight: normal; font-style: normal; }

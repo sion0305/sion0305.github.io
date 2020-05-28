@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div class="posts">
+        {%for blog in blogs.all%}
+        <p class="title">title: {{blog.title}}</p>
+        <p class = "date"> date : {{blog.pub_date}} </p>
+        <p class = "text">본문 미리보기: {{blog.summary}} <a href="{%url 'detail' blog.id%}">...more</a> </p>
+        <br><hr><br>
+        {%endfor%}
+    </div>
+</body>
+</html>
